@@ -1,0 +1,434 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #000000;
+    font-family: "Mayryo";
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFF;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica-bold";
+    font-weight: 700;
+    color: #FFF;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    /*line-height: 28px;*/
+    /*margin-bottom: 25px;*/
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mt p {
+	font-size:14px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+/*    word-wrap: break-word;*/
+
+/*    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;*/
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 20px;
+  font-family: Helvetica-bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*background-color: #ffffff;*/
+  background: -moz-linear-gradient(top,
+            rgba(0,0,0,1), rgba(0, 0, 0, 0));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));　
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #FFF;
+	/*background-color: #9A2EFE;*/
+/* Safari,Google Chrome用 */
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	height: 90%;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+
+#hello h1 {
+	font-size: 7vw;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #9A2EFE;
+}
+
+#hello h2 {
+	color: #c0c0c0;
+	font-weight: 400;
+}
+
+/* about */
+#about {
+	background-color: #9A2EFE;
+	padding-top: 50px;
+  	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+#about h3 {
+	color: white;
+  	font-size:3vw;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+@media screen and (max-width:1199px){
+  #about h3{
+    font-size:5vw;
+  }
+}
+
+#about p {
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+    	text-align: left
+}
+
+/* kandi */
+#kandi {
+	background-color: #9A2EFE;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*margin-top: 50px;*/
+}
+
+#kandi h3 {
+	color: white;
+  	font-size: 8vw;
+}
+
+#kandi h4{
+  	color: white;
+  	font-size: 5vw;
+}
+
+#kandi p {
+	color: white;
+	font-weight: 400;
+  	font-size: 20px;
+}
+/* warmup */
+#warmup {
+	background-color: #4e4e4e;
+	/*padding-top: 50px;*/
+	padding-bottom: 50px;
+	/*margin-top: 50px;*/
+}
+
+#warmup h3 {
+	color: white;
+  	font-size: 8vw;
+}
+
+#warmup p {
+	color: white;
+	font-weight: 400;
+}
+
+/* access Links */
+#access {
+	width: 100%;
+	/*padding-top: 50px;
+	padding-bottom: 50px;*/
+}
+
+#access h3{
+  color: white;
+  font-size: 8vw;
+}
+
+#access p{
+  color:white;
+  font-size: 25px;
+}
+
+/* Footer */
+#f {
+	padding-top: 15px;
+	background-color: #9A2EFE;
+}
+
+#f p {
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+
+/* Image Opacity */
+.grid img {
+    /*opacity: .7;*/
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+.leftside{
+  text-align: left;
+}
+
+.vdmid{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* オリジナル */
+
+.non-logo{
+  font-size: 4.5vw;
+}
+.part{
+  font-size:3.5vw;
+}
+
+.cameraman{
+		text-align: center;
+		font-size: 5vw;
+}
+
+.line-up{
+  font-size: 8vw;
+}
+
+.line-up-background{
+  background-color: #444444;
+  padding-bottom: 50px;
+}
+.line-up-background{
+  background-color: #444444;
+  padding-bottom: 50px;
+}
+
+.long-width-logo img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.long-height-logo img {
+  width: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.seigi-logo img{
+  width:35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and ( max-width:991px ){
+  .upper{
+    order: -1;
+  }
+
+  .bio {
+    display: none;
+  }
+}
+
+@media screen and ( max-width:1200px ){
+  .minicenter {
+    text-align: center;
+  }
+  .bio{
+    text-align: left
+  }
+  .long-width-logo img {
+    width: 50vw;
+    padding-top: 20px;
+  }
+
+  .long-height-logo img {
+    width: 40%;
+  }
+
+  .seigi-logo img{
+    width: 45%;」
+  }
+  .non-logo {
+    font-size: 6vw
+  }
+  .part{
+    font-size:4.5vw;
+  }
+	.cameraman{
+		text-align: center;
+		font-size: 6vw;
+  }
+}
+@media screen and (min-width:1200px){
+  /*ChromeとOperaのみだけに適用されるCSSハック*/
+  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+
+      .row-eq-height {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+    .centered-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .centered-img img {
+      height: auto;
+    }
+  }
+}
+
+.anchor{
+  padding-top:87px;
+  margin-top:-87px;
+}
+
+@media screen and (max-width:359px){
+  #about p{
+    font-size: 5vw;
+  }
+}
+
+.address{
+  padding:50px;
+}
+
+.bold{
+  font-weight: 800 !important;
+}
+@media screen and (min-width:1799px){
+  .non-logo{
+    font-size: 3vw;
+  }
+  .part{
+    font-size:2.6vw;
+  }
+  .cameraman{
+	text-align: center;
+	font-size: 3vw;
+  }
+  #kandi h4{
+    font-size: 3vw;
+  }
+
+
+  #line-up h3 {
+    font-size: 5vw;
+  }
+  #kandi h3 {
+    font-size: 5vw;
+  }
+  #warmup h3 {
+    font-size: 5vw;
+  }
+  #access h3 {
+    font-size: 5vw;
+  }
+
+}
+
+.credit{
+  font-weight: 600;
+}
